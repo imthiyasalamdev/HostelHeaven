@@ -1,0 +1,27 @@
+<% if(success && success.length > 0) { %>
+<div
+  class="alert alert-success alert-dismissible col-6 offset-3 fade show"
+  role="alert"
+>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+  <%= success %>
+</div>
+<% } %> <% if(error && error.length > 0) { %>
+<div
+  class="alert alert-danger alert-dismissible col-6 offset-3 fade show"
+  role="alert"
+>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+  <%= error %>
+</div>
+<% } %>
