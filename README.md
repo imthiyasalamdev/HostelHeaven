@@ -18,7 +18,7 @@ HostelHeaven is a comprehensive web platform inspired by Airbnb, designed for ad
 
 1. **Clone the Repository:**
    
-   git clone https://github.com/imthiyasalamdev/MERN_PROJECTS.git
+   git clone https://github.com/imthiyasalamdev/HostelHeaven.git
    cd HostelHeaven
    
 
